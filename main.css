@@ -1,21 +1,35 @@
 body {
-
+background-color: aquamarine;
+margin: 0;
 }
-header {
-
+header,
+main > section:nth-child(2),
+main > section:nth-child(1) {
+    display:inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    background-color: brown;
 }
 main {
-
+    margin-top: 60px ;
 }
-section:first-child {
 
-}
+main > section + section {
+     margin: 60px;
+    
+    }
+
+
+
 div {
+    float: left ;
+    width: 35%;
 
 }
 img {
+    width: 55%;
+    float: right;
+    background-color: violet;
 
 }
-section:last-child {
 
-}
