@@ -1,35 +1,60 @@
 body {
 background-color: aquamarine;
 margin: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-header,
-main > section:nth-child(2),
-main > section:nth-child(1) {
+.botdalis {
+    margin: 60px;}
+.container {
     display:inline-block;
     width: 800px;
     margin-left: calc(50% - 400px);
     background-color: brown;
 }
-main {
+
+.mainas {
     margin-top: 60px ;
 }
 
-main > section + section {
-     margin: 60px;
-    
-    }
-
-
-
-div {
+.logo {height: 30px;}
+.kairyssonas {
     float: left ;
     width: 35%;
 
 }
-img {
+.zmogeliukas {
     width: 55%;
     float: right;
     background-color: violet;
 
 }
+.topdalis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.logo + img {
+    height: 40px;
+    width: 200px;
+}
+.topdalis > nav {
+    gap: 30px;
+    display: flex;
+}
+.batonai {
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.toplink {
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+}
+.active {
+    background-color: yellow;}
 
